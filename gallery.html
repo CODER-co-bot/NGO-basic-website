@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InAmigos Foundation - Gallery</title>
+     <style>
+        button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.gallery{
+    margin: 100px 0 0 200px;
+
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.68);
+    transition: all ease-in-out 0.5s;
+}
+.gallery img:hover{
+    width: 70%;
+}
+#gallery h2 {
+
+    color: rgb(120, 73, 137);
+    font-size: 40px;
+}
+    </style>
+</head>
+<body>
+   
+    <section id="gallery">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                
+                <img src="https://s3.youthkiawaaz.com/wp-content/uploads/2019/05/28110059/Photo-of-NGO.jpg" alt="img1">
+                <img src="https://images.hindustantimes.com/img/2023/01/03/550x309/NGO-workers-distribute-milk-at-a-village-during-th_1672757437713.jpg" alt="img2">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1738054440.jpg" alt="img3">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1738238755.JPG" alt="img4">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1738048982.jpg" alt="img5">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.f8xayvgyMTDaBHl50D2zIAHaFN?rs=1&pid=ImgDetMain&o=7&rm=3" alt="img6">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.5kD-_CSRLOONRkcQtlCu5wHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="img7">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1690908359.jpg" alt="img8">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.EXntZjgNOOQFjJ4-0lq5nAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="img9">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.fsPoYITb5rmAW-Dcv5WtuQHaNK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="img10">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1690908380.jpg" alt="img11">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1690908350.jpg" alt="img12">
+                <img src="https://inamigosfoundation.org.in/public/storage/causes/1738046116.png" alt="img13">
+                <img src="https://inamigosfoundation.org.in/public/storage/causes/1738046145.png" alt="img14">
+                <img src="https://inamigosfoundation.org.in/public/storage/causes/1738046130.png" alt="img15">
+                </div>
+            </section>
+
+<button id="backButton">Back to Home</button>
+    
+
+    <script>
+        document.getElementById('backButton').onclick = function() {
+            window.location.href = 'homepage.html';
+        };
+        
+    </script>
+    </body>
+</html>
